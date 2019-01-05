@@ -1,7 +1,7 @@
 library(leaflet)
 library(dplyr)
 
-df <- read.csv("schools.csv", as.is=T, header=T)
+df <- read.csv("../scripts/schools.csv", as.is=T, header=T)
 
 treeIcon <- makeIcon(
   iconUrl = "tree_icon_2.png",
